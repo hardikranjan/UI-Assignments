@@ -1,0 +1,14 @@
+@mixin block($m: null, $ml: null, $mr: null, $mt: null, $mb: null, $p: null, $pl: null, $pr: null, $pt: null, $pb: null, $h: null, $w: null) {
+	margin: $m;
+	margin-left: $ml;
+	margin-right: $mr;
+	margin-top: $mt;
+	margin-bottom: $mb;
+	padding: $p;
+	padding-left: $pl;
+	padding-right: $pr;
+	padding-top: $pt;
+	padding-bottom: $pb;
+	height: $h;
+	width: $w;
+}

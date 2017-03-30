@@ -1,0 +1,251 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+}
+
+a, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.headerbottom {
+	padding-bottom: 200px;
+	padding-left: 20px;
+}
+
+.header-primary {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-primary-logo {
+	background: url(HeaderScreenshot.png) no-repeat;
+	background-size: contain;
+	height: 140px;
+	width: 280px;
+}
+
+.header-primary-info {
+	width: 100%;
+}
+
+.header-primary-top {
+	display: flex;
+	background-color: #d6d6d6;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	align-items: center;
+	padding-left: 0px;
+}
+
+.header-primary-menu-hover:hover {
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header-hover:hover {
+	color: #D72A33;
+}
+
+.header-less {
+	margin-left: 0px;
+}
+
+.header-search-box {
+	height: 26px;
+	margin-left: 20px;
+}
+
+.header-red-color {
+	color: #D72A33 !important;
+	margin-left: 8px !important;
+}
+
+.header-back {
+	background-color: #D72A33;
+	color: white !important;
+	font-size: 12px !important;
+	padding-top: 10px !important;
+	padding-bottom: 5px !important;
+	padding-left: 8px !important;
+	padding-right: 6px !important;
+	margin-left: 10px !important;
+}
+
+.header-stretch {
+	padding-left: 53px !important;
+	padding-right: 53px !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header-primary-menu {
+	margin-left: 20px;
+	color: #353535;
+	font-size: 13px;
+	font-weight: 400 !important;
+	padding-top: 20px;
+	padding-bottom: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header-back {
+	background-color: #D72A33;
+	color: white !important;
+	font-size: 12px !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 70px !important;
+}
+
+.header-bottom-info {
+	margin-left: 69px;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+
+.header-bottom {
+	display: flex;
+	height: 69px;
+	align-items: center;
+}
+
+.footer-logo {
+	background: url("frontierlogobottom.png") no-repeat;
+	background-color: #57585B;
+	background-size: contain;
+	display: block;
+	height: 65px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.footer-secondary-main {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 40px;
+	display: flex;
+}
+
+.footer-secondary-menu {
+	list-style: none;
+	padding-left: 0px;
+	color: white;
+}
+
+.footer-end-ul-h0 {
+	color: white;
+	list-style: none;
+	margin: 0px;
+}
+
+.footer-secondary-menu-info {
+	color: white;
+	list-style: none;
+	margin-left: 50px;
+}
+
+.footer-secondary-menu-link1 {
+	margin: 0px;
+	color: grey;
+	padding: 2px;
+}
+
+.footer-secondary-menu-item {
+	margin: 0px;
+	margin-left: 50px;
+	color: grey;
+	padding: 2px;
+}
+
+.footer-primary {
+	background-color: #db2425;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	font-size: 24px;
+	height: 60px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+
+.footer {
+	background-color: #57585B;
+	letter-spacing: 1px;
+	display: flex;
+}
+
+.end {
+	color: grey;
+	display: flex;
+	padding-left: 0px;
+	list-style: none;
+}
+
+.end-right {
+	padding-left: 100px;
+}
+
+.footer-secondary {
+	list-style: none;
+	color: #57585B;
+	padding-top: 50px;
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-bottom: 50px;
+	letter-spacing: 0.5px;
+}
+
+.footer-end {
+	list-style: none;
+	display: flex;
+	font-size: 13px;
+	color: #A2A2A2;
+	padding-left: 0px;
+	letter-spacing: 0.5px;
+}
+
+.footer-social {
+	list-style: none;
+	padding-left: 100%;
+	display: flex;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.footer-social-twitter {
+	background: url("t.png") no-repeat;
+	height: 40px;
+	width: 20px;
+	display: block;
+	background-size: contain;
+	padding-left: 20px;
+}
+
+.footer-social-in {
+	background: url("in.png") no-repeat;
+	height: 40px;
+	width: 20px;
+	display: block;
+	background-size: contain;
+	padding-left: 20px;
+}
+
+.footer-social-fb {
+	background: url("f.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display: block;
+	background-size: contain;
+}

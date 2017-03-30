@@ -1,0 +1,219 @@
+@import "mixin_index";
+@import "variable_index";
+
+body {
+	margin: $margin;
+	font-family: $font-family;
+	padding: $padding;
+}
+
+a, ul {
+	list-style: $list-style;
+	text-decoration: $text-decoration;
+}
+
+.header {
+	&hover:hover {
+		color: #D72A33;
+	}
+
+	&-red-color {
+		color: #D72A33 !important;
+		margin-left: 8px !important;
+	}
+
+	&-primary {
+		display: $display;
+
+		@include block($m: 0px, $p: 0px);
+
+		&-logo {
+			@include block($h: 140px, $w: 280px);
+
+			background: url(HeaderScreenshot.png) no-repeat;
+			background-size: $background-size;
+		}
+
+		&-info {
+			@include block($w: 100%);
+		}
+
+		&-top {
+			display: $display;
+			background-color: #d6d6d6;
+			align-items: $align-items;
+
+			@include block($h: 40px, $pl: 0px, $pt: 5px, $pb: 5px);
+		}
+
+		&-menu {
+			font-weight: 400 !important;
+			color: #353535;
+			font-size: 12px !important;
+
+			@include block($ml: 20px, $pl: 10px, $pr: 10px, $pt: 20px, $pb: 11px);
+
+			&-hover:hover {
+				background-color: black;
+				color: white;
+
+				@include block($pl: 10px, $pr: 20px, $pt: 20px, $pb: 11px);
+			}
+		}
+	}
+
+	&-back {
+		background-color: #D72A33;
+		color: white !important;
+		font-size: 12px !important;
+
+		@include block($ml: 50px, $pl: 30px, $pr: 30px, $pt: 30px, $pb: 30px);
+	}
+
+	&-less {
+		margin-left: $margin-left;
+	}
+
+	&-search-box {
+		@include block($ml: 50px, $h: 26px);
+	}
+
+	&-bottom {
+		display: $display;
+		height: 69px;
+		align-items: $align-items;
+
+		&-info {
+			color: #4A4A4A;
+			font-size: 14px;
+
+			@include block($ml: 69);
+		}
+	}
+
+	&-stretch {
+		@include block($pl: 48px, $pr: 48px, $pt: 5px, $pb: 5px);
+	}
+}
+
+.headerbottom {
+	@include block($pl: 20px, $pb: 200px);
+}
+
+.footer {
+	display: $display;
+	background-color: #57585B;
+	letter-spacing: 1px;
+
+	&-primary {
+		background-color: #db2425;
+		color: white;
+		text-align: center;
+		font-size: 24px;
+		letter-spacing: 1px;
+
+		@include block($p: 0px, $pt: 30px, $h: 60px);
+	}
+
+	&-logo {
+		background: url("frontierlogobottom.png") no-repeat;
+		background-color: #57585B;
+		background-size: $background-size;
+		display: $display;
+
+		@include block($ml: 0px, $pl: 0px, $h: 65px);
+	}
+
+	&-secondary {
+		list-style: $list-style;
+		color: #57585B;
+		letter-spacing: 0.5px;
+		padding-left: 170px;
+		padding-right: 170px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		&-main {
+			list-style: $list-style;
+			display: $display;
+
+			@include block($ml: 0px, $mt: 40px, $pl: 0px);
+		}
+
+		&-menu {
+			list-style: $list-style;
+			padding-left: 0px;
+			color: white;
+
+			&-link1 {
+				margin: 0px;
+				color: grey;
+				padding: 2px;
+			}
+
+			&-item {
+				color: grey;
+
+				@include block($m: 0px, $ml: 50px, $p: 2px);
+			}
+
+			&-info {
+				color: white;
+				list-style: $list-style;
+				margin-left: 50px;
+			}
+		}
+	}
+
+	&-social {
+		list-style: $list-style;
+		display: $display;
+		padding-left: 100%;
+
+		@include block($mt: 1px, $mb: 1px);
+
+		&-twitter {
+			background: url("t.png") no-repeat;
+			display: block;
+			background-size: $background-size;
+
+			@include block($pl: 40px, $h: 40px, $w: 20px);
+		}
+
+		&-in {
+			background: url("in.png") no-repeat;
+			display: block;
+			background-size: $background-size;
+
+			@include block($pl: 40px, $h: 40px, $w: 20px);
+		}
+
+		&-fb {
+			background: url("f.png") no-repeat;
+			display: block;
+			background-size: $background-size;
+
+			@include block($h: 40px, $w: 40px);
+		}
+	}
+
+	&-end {
+		list-style: none;
+		display: flex;
+		font-size: 13px;
+		color: #A2A2A2;
+		padding-left: 0px;
+		letter-spacing: 0.5px;
+	}
+}
+
+.end {
+	color: grey;
+	display: flex;
+	padding-left: 0px;
+	list-style: none;
+}
+
+.end-right {
+	padding-left: 100px;
+}

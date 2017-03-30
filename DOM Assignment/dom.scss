@@ -1,0 +1,212 @@
+.primary-logo {
+	background: url(appdirect_logo.png) no-repeat;
+	background-size: contain;
+	height: 40px;
+	width: 60px;
+}
+
+body {
+	margin: 0;
+}
+
+.section-label {
+	display: inline-block;
+	width: 150px;
+}
+
+.primary {
+	width: "100%";
+	background-color: #2D2A26;
+	padding-left: 40px;
+	padding-top: 0;
+	padding-bottom: 0px;
+	display: flex;
+	color: white;
+	list-style: none;
+	margin: 0px;
+	display: flex;
+	margin-left: auto;
+
+	&-header {
+		list-style: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		display: flex;
+		padding-bottom: 3px;
+	}
+
+	&-menu {
+		color: white;
+		padding: 10px;
+		font-family: verdana;
+
+		&-space {
+			padding-right: 100px;
+		}
+
+		&:hover {
+			background-color: #3E3B37;
+			padding: 10px;
+			font-family: verdana;
+		}
+
+		&-info {
+			color: white;
+			padding: 10px;
+			font-family: verdana;
+
+			&:hover {
+				background-color: #3E3B37;
+				padding: 10px;
+				font-family: verdana;
+			}
+		}
+	}
+}
+
+.secondary-register {
+	margin: 0px;
+	border: solid black;
+	width: 100%;
+	background-color: #81abef;
+	align-items: center;
+}
+
+.section {
+	display: flex;
+	list-style: none;
+	padding-left: 40px;
+	margin: 60px;
+
+	&-primary {
+		margin: 0px;
+		width: 45%;
+		align-items: center;
+		display: flex;
+
+		&-info {
+			margin-left: 20px;
+			margin-bottom: 10px;
+			width: 115px;
+		}
+	}
+
+	&-secondary {
+		margin-left: 40px;
+		width: 35%;
+
+		&-bottom-item {
+			margin: 20px;
+			padding: 10px;
+			background-color: #317faf;
+			color: white;
+			font-weight: bold;
+			height: 50px;
+			width: 20%;
+			font-size: 20px;
+		}
+
+		&secondary-info {
+			margin: 0px;
+			border: solid black;
+			padding-bottom: 492px;
+			width: 100%;
+			background-color: #81abef;
+			font-family: vardana;
+		}
+
+		&-item {
+			padding-top: 6px;
+			margin-left: 30px;
+		}
+
+		&-menu-info {
+			font-family: verdana;
+		}
+	}
+}
+
+.footer {
+	border-top: solid black;
+	border-width: 1px;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	margin-right: 80px;
+
+	&-primary {
+		list-style: none;
+		margin-top: 0px;
+		padding-left: 0px;
+		display: flex;
+
+		&-menu {
+			padding-top: 5px;
+
+			&-logo {
+				background: url(appdirect_footer.png) no-repeat;
+				background-size: contain;
+				height: 30px;
+				width: 40px;
+			}
+
+			&-item {
+				padding-left: 50px;
+				padding-top: 5px;
+
+				&-dropdown {
+					padding-left: 250px;
+					padding-top: 5px;
+				}
+
+				&-link {
+					text-decoration: none;
+
+					&:hover {
+						color: red;
+						text-decoration: none;
+					}
+				}
+			}
+
+			&-info {
+				padding-left: 20px;
+				padding-top: 5px;
+			}
+		}
+	}
+}
+
+.dropdown-content {
+	background-color: white;
+	border: 0;
+	font-size: 15px;
+	color: #575757;
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 150px;
+	box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.primary-menu-dropdown:hover .dropdown-content {
+	display: block;
+	color: black;
+}
+
+.def {
+	display: none;
+}
+
+.abc:hover + .def {
+	display: block;
+}
